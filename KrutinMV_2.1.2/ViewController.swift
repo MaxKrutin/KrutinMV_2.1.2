@@ -9,9 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var RedColorView: UIView!
+    @IBOutlet weak var YellowColorView: UIView!
+    @IBOutlet weak var GreenColorView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        RedColorView.layer.cornerRadius = 75
+        YellowColorView.layer.cornerRadius = 75
+        GreenColorView.layer.cornerRadius = 75
+
     }
 
 
